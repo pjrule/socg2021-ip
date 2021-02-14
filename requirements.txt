@@ -1,0 +1,8 @@
+cgshop2021-pyutils==0.1.1
+click==7.1.2
+dropbox==11.2.0
+gurobipy==9.1.1
+matplotlib==3.3.4
+networkx==2.5
+numpy==1.20.1
+tqdm==4.56.2
