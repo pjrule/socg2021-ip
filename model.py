@@ -97,7 +97,7 @@ def k_way_split(instance, graph, buffer, k):
         waypoints[r].append(target)
 
     instances = []
-    for step in range(k - 1):
+    for step in range(k):
         builder = InstanceBuilder(instance.name + f'_{step}',
                                   instance.description)
         for obstacle in instance.obstacles:
